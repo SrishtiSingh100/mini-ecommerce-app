@@ -8,7 +8,7 @@ function Signup() {
   const handleSignup = async () => {
     try {
       const response = await fetch(
-        "http://localhost:8000/signup",
+        "https://mini-ecommerce-app-r6td.onrender.com/signup",
         {
           method: "POST",
           headers: {

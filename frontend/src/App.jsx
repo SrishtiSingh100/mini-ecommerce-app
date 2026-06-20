@@ -12,7 +12,7 @@ function App() {
   const handleLogin = async () => {
     try {
       const response = await fetch(
-        "http://localhost:8000/login",
+        "https://mini-ecommerce-app-r6td.onrender.com/login",
         {
           method: "POST",
           headers: {

@@ -8,7 +8,7 @@ function ProductList() {
 
   useEffect(() => {
     fetch(
-      "http://localhost:8000/products"
+      "https://mini-ecommerce-app-r6td.onrender.com/products"
     )
       .then((res) => res.json())
       .then((data) =>
